@@ -1,0 +1,6 @@
+framework module Pods_VenueLystUITests {
+  umbrella header "Pods-VenueLystUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

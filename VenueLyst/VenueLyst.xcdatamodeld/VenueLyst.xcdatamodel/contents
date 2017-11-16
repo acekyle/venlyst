@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13240" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="favorites" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profilePic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recentVendors" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="recentVenues" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subscribedDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zipcode" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Vendor" representedClassName="Vendor" syncable="YES">
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdOn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="experience" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fbLink" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="instaLink" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isFeatured" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="specialization" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="twitLink" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userFullName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vendorContact" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vendorDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vendorDetailedPic" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="vendorRate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vendorType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Venue" representedClassName="Venue" syncable="YES">
+        <attribute name="avEquipment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="beach" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bevInHouse" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bevNotAllowed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bevOutside" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bevPreferred" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="breakOut" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="businessCenter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="coatCheck" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdOn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="emailTwo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fbLink" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foodInHouse" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foodOutside" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foodPreferred" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="friClosed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="friFrom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="friSatBuyoutPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="friSatPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="friTo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="greatView" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="handicapAccessible" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="indoor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="instaLink" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isFeatured" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matterportLink" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediaRoom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="monClosed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="monFrom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="monTo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="non_smoking" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="occupancy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="outdoor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="overnightRooms" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pet_friendly" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pool" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rooftop" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rooms_available" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="satClosed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="satFrom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="satTo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="smoking" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="spa" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sqFoot" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="streetParkingTheater" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sunClosed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sunFrom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sunThursBuyoutPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sunThursPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sunTo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thuClosed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thuFrom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thuTo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tueClosed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tueFrom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tueTo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="twitLink" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userFullName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="valet" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venueContact" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venueDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venueDetailedPic" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="venueRules" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venueType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wedClosed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weddingsPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wedFrom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wedTo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wifi" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="User" positionX="-54" positionY="135" width="128" height="225"/>
+        <element name="Vendor" positionX="-54" positionY="144" width="128" height="300"/>
+        <element name="Venue" positionX="-63" positionY="-18" width="128" height="1170"/>
+    </elements>
+</model>
